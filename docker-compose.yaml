@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  db:
+    image: mysql
+    container_name: database_coffeeshop
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: coffeeshop
+    ports:
+      - "3306:3306"
+    volumes:
+      - coffeeshop_data:/var/lib/mysql
+
+volumes:
+  coffeeshop_data:
