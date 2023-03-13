@@ -1,4 +1,4 @@
-package br.dev.diego.coffeeshop.models.responses;
+package br.dev.diego.coffeeshop.models.responses.product;
 
 import br.dev.diego.coffeeshop.models.entities.Product;
 import br.dev.diego.coffeeshop.models.enums.Category;

@@ -1,8 +1,8 @@
 package br.dev.diego.coffeeshop.models.entities;
 
 import br.dev.diego.coffeeshop.models.enums.Category;
-import br.dev.diego.coffeeshop.models.requests.ProductInsertRequest;
-import br.dev.diego.coffeeshop.models.requests.ProductUpdateRequest;
+import br.dev.diego.coffeeshop.models.requests.product.ProductInsertRequest;
+import br.dev.diego.coffeeshop.models.requests.product.ProductUpdateRequest;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

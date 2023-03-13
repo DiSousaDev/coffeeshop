@@ -1,4 +1,4 @@
-package br.dev.diego.coffeeshop.models.requests;
+package br.dev.diego.coffeeshop.models.requests.product;
 
 import br.dev.diego.coffeeshop.models.enums.Category;
 import jakarta.validation.constraints.DecimalMin;
@@ -9,7 +9,7 @@ import org.hibernate.validator.constraints.URL;
 
 import java.math.BigDecimal;
 
-public record ProductInsertRequest(
+public record ProductUpdateRequest(
         @NotBlank String title,
         @NotBlank String description,
         @NotBlank @URL String photo,

@@ -1,8 +1,8 @@
 package br.dev.diego.coffeeshop.controllers;
 
-import br.dev.diego.coffeeshop.models.requests.ProductInsertRequest;
-import br.dev.diego.coffeeshop.models.requests.ProductUpdateRequest;
-import br.dev.diego.coffeeshop.models.responses.ProductFullResponse;
+import br.dev.diego.coffeeshop.models.requests.product.ProductInsertRequest;
+import br.dev.diego.coffeeshop.models.requests.product.ProductUpdateRequest;
+import br.dev.diego.coffeeshop.models.responses.product.ProductFullResponse;
 import br.dev.diego.coffeeshop.services.ProductService;
 import br.dev.diego.coffeeshop.utils.GeneralUtilities;
 import jakarta.validation.Valid;

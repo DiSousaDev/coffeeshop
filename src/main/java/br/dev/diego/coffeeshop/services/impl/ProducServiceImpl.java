@@ -2,9 +2,9 @@ package br.dev.diego.coffeeshop.services.impl;
 
 import br.dev.diego.coffeeshop.models.entities.Product;
 import br.dev.diego.coffeeshop.models.enums.Category;
-import br.dev.diego.coffeeshop.models.requests.ProductInsertRequest;
-import br.dev.diego.coffeeshop.models.requests.ProductUpdateRequest;
-import br.dev.diego.coffeeshop.models.responses.ProductFullResponse;
+import br.dev.diego.coffeeshop.models.requests.product.ProductInsertRequest;
+import br.dev.diego.coffeeshop.models.requests.product.ProductUpdateRequest;
+import br.dev.diego.coffeeshop.models.responses.product.ProductFullResponse;
 import br.dev.diego.coffeeshop.repositories.ProductRepository;
 import br.dev.diego.coffeeshop.services.ProductService;
 import jakarta.persistence.EntityNotFoundException;
